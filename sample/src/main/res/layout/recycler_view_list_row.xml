@@ -40,8 +40,8 @@
         android:layout_height="120dp"
         android:layout_below="@id/textView"
         android:orientation="vertical"
-        app:ael_duration="400"
-        app:ael_expanded="false"
+        app:usher_ael_duration="400"
+        app:usher_ael_expanded="false"
         >
 
         <TextView

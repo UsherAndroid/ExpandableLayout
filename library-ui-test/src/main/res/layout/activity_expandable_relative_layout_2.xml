@@ -24,10 +24,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="@dimen/margin_large"
-        app:ael_duration="350"
-        app:ael_expanded="false"
-        app:ael_interpolator="fastOutSlowIn"
-        app:ael_orientation="vertical">
+        app:usher_ael_duration="350"
+        app:usher_ael_expanded="false"
+        app:usher_ael_interpolator="fastOutSlowIn"
+        app:usher_ael_orientation="vertical">
         <TextView
             android:id="@+id/child1"
             android:layout_width="80dp"

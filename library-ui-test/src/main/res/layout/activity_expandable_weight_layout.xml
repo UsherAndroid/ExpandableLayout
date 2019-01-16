@@ -42,9 +42,9 @@
             android:layout_weight="3"
             android:background="@color/material_light_green_500"
             android:padding="@dimen/margin_normal"
-            app:ael_duration="1000"
-            app:ael_expanded="false"
-            app:ael_interpolator="anticipateOvershoot"
+            app:usher_ael_duration="1000"
+            app:usher_ael_expanded="false"
+            app:usher_ael_interpolator="anticipateOvershoot"
             >
 
             <TextView

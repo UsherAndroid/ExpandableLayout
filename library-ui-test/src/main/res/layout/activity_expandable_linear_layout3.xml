@@ -48,9 +48,9 @@
         android:layout_height="wrap_content"
         android:background="@color/material_orange_300"
         android:orientation="vertical"
-        app:ael_duration="300"
-        app:ael_expanded="false"
-        app:ael_interpolator="decelerate"
+        app:usher_ael_duration="300"
+        app:usher_ael_expanded="false"
+        app:usher_ael_interpolator="decelerate"
     >
 
         <TextView

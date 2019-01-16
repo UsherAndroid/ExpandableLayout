@@ -91,13 +91,13 @@ public class ExpandableLinearLayout extends LinearLayout implements ExpandableLa
     private void init(final Context context, final AttributeSet attrs, final int defStyleAttr) {
         final TypedArray a = context.obtainStyledAttributes(
                 attrs, R.styleable.expandableLayout, defStyleAttr, 0);
-        duration = a.getInteger(R.styleable.expandableLayout_ael_duration, DEFAULT_DURATION);
-        defaultExpanded = a.getBoolean(R.styleable.expandableLayout_ael_expanded, DEFAULT_EXPANDED);
-        defaultChildIndex = a.getInteger(R.styleable.expandableLayout_ael_defaultChildIndex,
+        duration = a.getInteger(R.styleable.expandableLayout_usher_ael_duration, DEFAULT_DURATION);
+        defaultExpanded = a.getBoolean(R.styleable.expandableLayout_usher_ael_expanded, DEFAULT_EXPANDED);
+        defaultChildIndex = a.getInteger(R.styleable.expandableLayout_usher_ael_defaultChildIndex,
                 Integer.MAX_VALUE);
-        defaultPosition = a.getDimensionPixelSize(R.styleable.expandableLayout_ael_defaultPosition,
+        defaultPosition = a.getDimensionPixelSize(R.styleable.expandableLayout_usher_ael_defaultPosition,
                 Integer.MIN_VALUE);
-        final int interpolatorType = a.getInteger(R.styleable.expandableLayout_ael_interpolator,
+        final int interpolatorType = a.getInteger(R.styleable.expandableLayout_usher_ael_interpolator,
                 Utils.LINEAR_INTERPOLATOR);
         a.recycle();
         interpolator = Utils.createInterpolator(interpolatorType);

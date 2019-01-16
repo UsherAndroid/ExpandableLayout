@@ -40,8 +40,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/titleText"
         android:orientation="vertical"
-        app:ael_duration="200"
-        app:ael_expanded="false"
+        app:usher_ael_duration="200"
+        app:usher_ael_expanded="false"
     >
 
         <TextView

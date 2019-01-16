@@ -61,10 +61,10 @@ add `xmlns:app="http://schemas.android.com/apk/res-auto"`
     android:id="@+id/expandableLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:ael_expanded="false"
-    app:ael_duration="500"
-    app:ael_interpolator="bounce"
-    app:ael_orientation="vertical">
+    app:usher_ael_expanded="false"
+    app:usher_ael_duration="500"
+    app:usher_ael_interpolator="bounce"
+    app:usher_ael_orientation="vertical">
 
     <TextView
         android:id="@+id/text"
@@ -149,8 +149,8 @@ add `xmlns:app="http://schemas.android.com/apk/res-auto"`
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
-        app:ael_duration="1000"
-        app:ael_interpolator="anticipateOvershoot">
+        app:usher_ael_duration="1000"
+        app:usher_ael_interpolator="anticipateOvershoot">
 
         <ImageView
             android:layout_width="match_parent"
@@ -219,12 +219,12 @@ expandableLayout.setListener(new ExpandableLayoutListenerAdapter() {
 
 |attribute name|description|
 |:-:|:-:|
-|ael_duration|The length of the expand or collapse animation|
-|ael_expanded|The layout is expanded if you set true|
-|ael_defaultChildIndex|The layout is expanded at index of child view. (Only `ExpandableRelativeLayout`)|
-|ael_defaultPosition|The layout is expanded at the position. (Only `ExpandableRelativeLayout`)|
-|ael_orientation|The orientation of animation(horizontal \| vertical)|
-|ael_interpolator|Sets [interpolator](#interpolator)|
+|usher_ael_duration|The length of the expand or collapse animation|
+|usher_ael_expanded|The layout is expanded if you set true|
+|usher_ael_defaultChildIndex|The layout is expanded at index of child view. (Only `ExpandableRelativeLayout`)|
+|usher_ael_defaultPosition|The layout is expanded at the position. (Only `ExpandableRelativeLayout`)|
+|usher_ael_orientation|The orientation of animation(horizontal \| vertical)|
+|usher_ael_interpolator|Sets [interpolator](#interpolator)|
 
 ### Interpolator
 
