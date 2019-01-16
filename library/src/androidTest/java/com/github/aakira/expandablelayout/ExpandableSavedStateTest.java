@@ -6,6 +6,8 @@ import android.support.test.runner.AndroidJUnit4;
 import android.view.AbsSavedState;
 import android.view.View;
 
+import com.github.aakira.expandable.layout.ExpandableSavedState;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

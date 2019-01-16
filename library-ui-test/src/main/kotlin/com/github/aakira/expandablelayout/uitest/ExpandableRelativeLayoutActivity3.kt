@@ -4,7 +4,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import com.github.aakira.expandablelayout.ExpandableRelativeLayout
+import com.github.aakira.expandable.layout.ExpandableRelativeLayout
 import kotlin.properties.Delegates
 
 class ExpandableRelativeLayoutActivity3 : AppCompatActivity() {

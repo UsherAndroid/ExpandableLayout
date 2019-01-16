@@ -1,4 +1,4 @@
-package com.github.aakira.expandablelayout;
+package com.github.aakira.expandable.layout;
 
 import android.animation.TimeInterpolator;
 import android.support.annotation.IntDef;

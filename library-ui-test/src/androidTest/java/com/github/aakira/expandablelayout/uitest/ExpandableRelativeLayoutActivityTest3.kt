@@ -10,7 +10,7 @@ import android.support.test.runner.AndroidJUnit4
 import android.test.ActivityInstrumentationTestCase2
 import android.widget.LinearLayout
 import android.widget.TextView
-import com.github.aakira.expandablelayout.ExpandableRelativeLayout
+import com.github.aakira.expandable.layout.ExpandableRelativeLayout
 import com.github.aakira.expandablelayout.uitest.utils.ElapsedIdLingResource
 import com.github.aakira.expandablelayout.uitest.utils.equalHeight
 import org.hamcrest.MatcherAssert.assertThat

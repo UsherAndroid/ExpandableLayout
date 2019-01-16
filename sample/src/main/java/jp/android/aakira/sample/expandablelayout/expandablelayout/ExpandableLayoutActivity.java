@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.github.aakira.expandablelayout.ExpandableRelativeLayout;
+import com.github.aakira.expandable.layout.ExpandableRelativeLayout;
 
 import jp.android.aakira.sample.expandablelayout.R;
 

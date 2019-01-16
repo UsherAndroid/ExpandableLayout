@@ -1,4 +1,4 @@
-package com.github.aakira.expandablelayout;
+package com.github.aakira.expandable.layout;
 
 public abstract class ExpandableLayoutListenerAdapter implements ExpandableLayoutListener {
     /**

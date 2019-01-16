@@ -10,7 +10,7 @@ import android.view.ViewTreeObserver;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.github.aakira.expandablelayout.ExpandableRelativeLayout;
+import com.github.aakira.expandable.layout.ExpandableRelativeLayout;
 
 import jp.android.aakira.sample.expandablelayout.R;
 

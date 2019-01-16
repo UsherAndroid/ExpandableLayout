@@ -4,7 +4,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import com.github.aakira.expandablelayout.ExpandableWeightLayout
+import com.github.aakira.expandable.layout.ExpandableWeightLayout
 import kotlin.properties.Delegates
 
 class ExpandableWeightLayoutActivity : AppCompatActivity() {

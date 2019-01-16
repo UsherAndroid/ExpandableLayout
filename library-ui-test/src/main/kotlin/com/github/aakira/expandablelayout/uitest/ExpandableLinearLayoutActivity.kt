@@ -2,7 +2,7 @@ package com.github.aakira.expandablelayout.uitest
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import com.github.aakira.expandablelayout.ExpandableLinearLayout
+import com.github.aakira.expandable.layout.ExpandableLinearLayout
 import kotlin.properties.Delegates
 
 class ExpandableLinearLayoutActivity : AppCompatActivity() {

@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.github.aakira.expandablelayout.Utils;
+import com.github.aakira.expandable.layout.Utils;
 
 import java.util.ArrayList;
 import java.util.List;

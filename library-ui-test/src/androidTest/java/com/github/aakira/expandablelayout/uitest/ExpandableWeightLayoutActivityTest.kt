@@ -8,7 +8,7 @@ import android.support.test.espresso.assertion.ViewAssertions.matches
 import android.support.test.espresso.matcher.ViewMatchers.withId
 import android.support.test.runner.AndroidJUnit4
 import android.test.ActivityInstrumentationTestCase2
-import com.github.aakira.expandablelayout.ExpandableWeightLayout
+import com.github.aakira.expandable.layout.ExpandableWeightLayout
 import com.github.aakira.expandablelayout.uitest.utils.ElapsedIdLingResource
 import com.github.aakira.expandablelayout.uitest.utils.equalHeight
 import com.github.aakira.expandablelayout.uitest.utils.equalWeight

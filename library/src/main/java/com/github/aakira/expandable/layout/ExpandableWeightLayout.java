@@ -1,4 +1,4 @@
-package com.github.aakira.expandablelayout;
+package com.github.aakira.expandable.layout;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -16,6 +16,8 @@ import android.view.ViewTreeObserver;
 import android.view.animation.LinearInterpolator;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+
+import com.github.aakira.expandablelayout.R;
 
 public class ExpandableWeightLayout extends RelativeLayout implements ExpandableLayout {
 

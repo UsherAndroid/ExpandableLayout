@@ -11,10 +11,10 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.github.aakira.expandablelayout.ExpandableLayout;
-import com.github.aakira.expandablelayout.ExpandableLayoutListenerAdapter;
-import com.github.aakira.expandablelayout.ExpandableLinearLayout;
-import com.github.aakira.expandablelayout.Utils;
+import com.github.aakira.expandable.layout.ExpandableLayout;
+import com.github.aakira.expandable.layout.ExpandableLayoutListenerAdapter;
+import com.github.aakira.expandable.layout.ExpandableLinearLayout;
+import com.github.aakira.expandable.layout.Utils;
 
 import java.util.List;
 

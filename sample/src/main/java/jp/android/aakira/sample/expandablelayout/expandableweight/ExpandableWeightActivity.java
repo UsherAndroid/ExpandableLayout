@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.github.aakira.expandablelayout.ExpandableWeightLayout;
+import com.github.aakira.expandable.layout.ExpandableWeightLayout;
 import jp.android.aakira.sample.expandablelayout.R;
 
 public class ExpandableWeightActivity extends AppCompatActivity implements View.OnClickListener {

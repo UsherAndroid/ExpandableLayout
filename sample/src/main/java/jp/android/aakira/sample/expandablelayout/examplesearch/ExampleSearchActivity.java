@@ -11,7 +11,7 @@ import android.widget.Button;
 
 import java.util.ArrayList;
 
-import com.github.aakira.expandablelayout.ExpandableRelativeLayout;
+import com.github.aakira.expandable.layout.ExpandableRelativeLayout;
 import jp.android.aakira.sample.expandablelayout.util.DividerItemDecoration;
 import jp.android.aakira.sample.expandablelayout.R;
 
