@@ -1,7 +1,7 @@
 machine:
   timezone: Asia/Tokyo
   java:
-    version: openjdk7
+    version: openjdk8
   environment:
     JAVA_OPTS: "-Xms256m -Xmx1024m -XX:MaxPermSize=512m"
     ADB_INSTALL_TIMEOUT: 8
@@ -13,7 +13,7 @@ dependencies:
 
 test:
   pre:
-    - emulator -avd circleci-android21 -no-audio -no-window:
+    - emulator -avd circleci-android28 -no-audio -no-window:
         background: true
         parallel: true
     - circle-android wait-for-boot
